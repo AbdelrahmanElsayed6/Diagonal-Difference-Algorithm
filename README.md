@@ -12,8 +12,8 @@ difference between the sums of its two diagonals.
 C++
 
 ## Files
-- `iterative.cpp` — Non-recursive implementation
-- `recursive.cpp` — Recursive implementation
+- `Non_Recursive.cpp` — Non-recursive implementation
+- `Recursive.cpp` — Recursive implementation
 - `Diagonal_Difference.docx` — Full documentation including pseudo-code, 
    analysis, complexity, and comparison
 

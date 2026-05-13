@@ -1,13 +1,15 @@
 #include <iostream>
-#include <vector>
 #include <cmath>
 
-int diagonalDifferenceIterative(const std::vector<std::vector<int>>& matrix, int n) {
+// Non_Recurrsive :
+int diagonalDifferenceIterative(int matrix[][100], int n) {
     int primarySum = 0;
     int secondarySum = 0;
+
     for (int i = 0; i < n; i++) {
-        primarySum += matrix[i][i];            
-        secondarySum += matrix[i][n - 1 - i];  
+        primarySum += matrix[i][i];
+        secondarySum += matrix[i][n - 1 - i];
     }
-    return std::abs(primarySum - secondarySum);
+
+    return abs(primarySum - secondarySum);
 }
